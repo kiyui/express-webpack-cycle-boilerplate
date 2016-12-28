@@ -45,6 +45,13 @@ const webpackHotMiddleware = require('webpack-hot-middleware')
     next()
   })
 
+  app.get('/v1/fruits', (req, res) => {
+    res.json({
+      err: false,
+      fruits: ['Apple', 'Orange', 'Pear', 'Grape']
+    })
+  })
+
   // Frontend files such as index.html and webpack's bundle.js
   app.use(express.static('public'))
 

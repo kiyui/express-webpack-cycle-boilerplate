@@ -1,3 +1,9 @@
+// Overrides & variables
+$enable-flex: true;
+$body-padding-top: 4em;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
 body {
-    padding: 1em;
+    padding-top: $body-padding-top;
 }

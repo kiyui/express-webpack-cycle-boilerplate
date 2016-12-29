@@ -32,6 +32,7 @@ This boilerplate features Cycle.js using a frontend router to handle routing bet
 Each component exports their respective sinks that are then parsed the main entrypoint to be loaded by the drivers.
 The component DOM is drawn inside a main container, and routing is controlled by an example navbar.
 The example features usage of the DOM, HTTP, and router driver.
+Further comments for those new to Cycle.js (Hi Swinburne Sarawak ICT Club members :D), refer to code.
 
 ### build tools
 Webpack is configured in `webpack.config.js` and loaded by `index.js` when the `environment` key in `env.json` is configured as `development`. You may add and customize the loaders depending on your frontend stack. Webpack code is built and bundled to the `public/` directory.
